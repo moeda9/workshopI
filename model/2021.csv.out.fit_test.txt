@@ -1,0 +1,37 @@
+-----------------------------------------------------
+Train and test results:
+-----------------------------------------------------
+Dataset: 	2021.csv
+Dataset shape:	(7296, 21)
+
+period: 
+	Begin: 	2021-01-01 00:00:00
+	End:	2021-03-17 23:45:00
+-----------------------------------------------------
+* Train (70% of the data):
+
+	Time (s):               1267.5
+	Train accuracy:         0.7632
+	Train mse:              0.1694
+	Train rmse:             0.4116
+	Train mae:              0.3374
+
+
+* Test (30% of the data):
+
+	Accuracy:               0.7750
+	f1_score-binary:        0.7173
+	ROC AUC:                0.7942
+
+
+              precision    recall  f1-score   support
+
+           0       0.84      0.79      0.81      1296
+           1       0.68      0.76      0.72       788
+
+    accuracy                           0.77      2084
+   macro avg       0.76      0.77      0.77      2084
+weighted avg       0.78      0.77      0.78      2084
+-----------------------------------------------------
+
+

@@ -1,0 +1,21 @@
+-----------------------------------------------------
+Basic description of model and dataset for test:
+-----------------------------------------------------
+Model:                        2021.csv
+Dataset for inference:        2020.csv
+
+Total samples:                7297
+data_features.shape:          (7297, 21)
+-----------------------------------------------------
+              precision    recall  f1-score   support
+
+           0       0.61      0.86      0.71      4960
+           1       0.76      0.44      0.56      4960
+
+    accuracy                           0.65      9920
+   macro avg       0.69      0.65      0.64      9920
+weighted avg       0.69      0.65      0.64      9920
+
+Accuracy:                         	       0.6529
+f1_score-binary:                  	       0.5609
+-----------------------------------------------------
