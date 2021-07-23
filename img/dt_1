@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<Umidade_rio_centro &le; 0.852<br/>entropy = 0.446<br/>samples = 5107<br/>value = [4633, 474]>, fillcolor="#e88e4d"] ;
+1 [label=<Chuva_santa_cruz &le; 0.007<br/>entropy = 0.25<br/>samples = 4674<br/>value = [4479, 195]>, fillcolor="#e68642"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Chuva_alto_da_boa_vista &le; 0.005<br/>entropy = 0.192<br/>samples = 4585<br/>value = [4450, 135]>, fillcolor="#e6853f"] ;
+1 -> 2 ;
+3 [label=<entropy = 0.161<br/>samples = 4540<br/>value = [4433, 107]>, fillcolor="#e6843e"] ;
+2 -> 3 ;
+4 [label=<entropy = 0.956<br/>samples = 45<br/>value = [17, 28]>, fillcolor="#b1d8f5"] ;
+2 -> 4 ;
+5 [label=<Umidade_santa_cruz &le; 0.823<br/>entropy = 0.911<br/>samples = 89<br/>value = [29, 60]>, fillcolor="#99ccf2"] ;
+1 -> 5 ;
+6 [label=<entropy = 0.371<br/>samples = 14<br/>value = [13, 1]>, fillcolor="#e78b48"] ;
+5 -> 6 ;
+7 [label=<entropy = 0.748<br/>samples = 75<br/>value = [16, 59]>, fillcolor="#6fb8ec"] ;
+5 -> 7 ;
+8 [label=<Umidade_rio_centro &le; 0.914<br/>entropy = 0.939<br/>samples = 433<br/>value = [154, 279]>, fillcolor="#a6d3f3"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<Chuva_guaratiba &le; 0.005<br/>entropy = 0.998<br/>samples = 293<br/>value = [154, 139]>, fillcolor="#fcf3ec"] ;
+8 -> 9 ;
+10 [label=<entropy = 0.945<br/>samples = 240<br/>value = [153, 87]>, fillcolor="#f4c9aa"] ;
+9 -> 10 ;
+11 [label=<entropy = 0.135<br/>samples = 53<br/>value = [1, 52]>, fillcolor="#3d9fe6"] ;
+9 -> 11 ;
+12 [label=<entropy = 0.0<br/>samples = 140<br/>value = [0, 140]>, fillcolor="#399de5"] ;
+8 -> 12 ;
+}
